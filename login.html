@@ -1,0 +1,66 @@
+<html>
+<head>
+<style>
+.login-btn{
+    background-color:#3498db;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:8px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.login-btn:hover{
+    background-color:#2980b9;
+    transform:scale(1.05);
+}
+</style>
+</head>
+<body background='logo.png'>
+<form action="verify.jsp"
+<br>
+<center>
+<h1 style="
+    background-color:white;
+    color:#FF2E2E;
+    display:inline-block;
+    padding:15px 40px;
+    border-radius:15px;
+    border:4px solid #003366;">BANKING MANAGEMENT SYSTEM</h1></center><br><br>
+<table style="
+    position:absolute;
+    top:360pt;
+    left:400pt;
+    background:lightblue;
+    border:3px solid white;
+    border-radius:20px;
+    padding:20px;
+    width:350px;
+    height:200px;">
+	<tr>
+	<th>User Name</th>
+	<td><input type="text" name="t2"></td>
+	</tr>
+	<tr>
+	<th>Password</th>
+	<td><input type="password" name="t3"></td>
+	</tr>
+	<tr>
+	<th> User Type</th>
+	<td><select name="t1">
+		<option>--SELECT--</option>
+		<option>User</option>
+		<option>Staff</option>
+		<option>Admin</option>
+	</select></td>
+	</tr>
+	<tr>
+		<td colspan="2" align="center" ><input type="submit" value="LOGIN"></td>
+	</tr>
+</table>
+
+<br>
+
+</body>
+</html>
